@@ -39,3 +39,7 @@
 
 # debug information files
 *.dwo
+
+# Local LLM models (do not track large model files)
+desktop pet/ai-service/models/*
+!desktop pet/ai-service/models/.gitkeep

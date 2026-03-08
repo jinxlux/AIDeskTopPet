@@ -53,12 +53,18 @@ dotnet build DesktopPet.sln
 1. 用 Visual Studio 打开 `DesktopPet.sln`，启动 `DesktopPet.App`
 2. 命令行运行 `DesktopPet.App`
 
-## 2. 启动 AI 服务（ai-service）
+## 2. 启动 AI 服务（ai-service，可选手动）
 
 ```powershell
 cd "D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\AiService.Host"
 dotnet run
 ```
+
+默认情况下，不需要先手动启动 ai-service。
+
+当你启动桌宠并打开 AI 对话时，桌宠会自动触发 ai-service（以及其底层 llama runtime）启动。
+
+手动启动主要用于独立调试接口或查看 Swagger。
 
 默认可通过 Swagger 测试接口（Development 环境下）。
 
@@ -166,3 +172,5 @@ python video_pipeline.py --input "D:\...\prephotos\video.mp4" --output "D:\...\a
 ## 许可证
 
 见仓库根目录 `LICENSE`。
+
+
