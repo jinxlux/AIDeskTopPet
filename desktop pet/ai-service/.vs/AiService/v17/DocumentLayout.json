@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\aiProject\\desktop pet\\ai-service\\",
+  "WorkspaceRootPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\aiproject\\desktop pet\\ai-service\\aiservice.host\\services\\agentsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\ai-service\\aiservice.host\\services\\agentsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|solutionrelative:aiservice.host\\services\\agentsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\aiproject\\desktop pet\\ai-service\\aiservice.host\\contracts\\agentsearchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\ai-service\\aiservice.host\\contracts\\agentsearchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|solutionrelative:aiservice.host\\contracts\\agentsearchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\aiproject\\desktop pet\\ai-service\\aiservice.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\ai-service\\aiservice.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|solutionrelative:aiservice.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\aiproject\\desktop pet\\ai-service\\aiservice.host\\services\\llamaruntimehostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\ai-service\\aiservice.host\\services\\llamaruntimehostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|solutionrelative:aiservice.host\\services\\llamaruntimehostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\aiproject\\desktop pet\\ai-service\\aiservice.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\ai-service\\aiservice.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|solutionrelative:aiservice.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\aiproject\\desktop pet\\ai-service\\aiservice.host\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\ai-service\\aiservice.host\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|solutionrelative:aiservice.host\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\aiproject\\desktop pet\\ai-service\\aiservice.host\\services\\llamagateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\ai-service\\aiservice.host\\services\\llamagateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E295CF5-945B-4707-A076-AB43EB6F0A24}|AiService.Host\\AiService.Host.csproj|solutionrelative:aiservice.host\\services\\llamagateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -52,11 +52,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AgentSearchService.cs",
-              "DocumentMoniker": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Services\\AgentSearchService.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Services\\AgentSearchService.cs",
               "RelativeDocumentMoniker": "AiService.Host\\Services\\AgentSearchService.cs",
-              "ToolTip": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Services\\AgentSearchService.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Services\\AgentSearchService.cs",
               "RelativeToolTip": "AiService.Host\\Services\\AgentSearchService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAiwEUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T05:07:43.48Z",
               "EditorCaption": ""
@@ -65,22 +65,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AgentSearchRequest.cs",
-              "DocumentMoniker": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Contracts\\AgentSearchRequest.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Contracts\\AgentSearchRequest.cs",
               "RelativeDocumentMoniker": "AiService.Host\\Contracts\\AgentSearchRequest.cs",
-              "ToolTip": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Contracts\\AgentSearchRequest.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Contracts\\AgentSearchRequest.cs",
               "RelativeToolTip": "AiService.Host\\Contracts\\AgentSearchRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T05:07:34.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T05:07:34.873Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AiService.Host\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Properties\\launchSettings.json",
               "RelativeToolTip": "AiService.Host\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -90,22 +89,21 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\appsettings.json",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\appsettings.json",
               "RelativeDocumentMoniker": "AiService.Host\\appsettings.json",
-              "ToolTip": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\appsettings.json",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\appsettings.json",
               "RelativeToolTip": "AiService.Host\\appsettings.json",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-07T10:06:35.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T10:06:35.573Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "LlamaGateway.cs",
-              "DocumentMoniker": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Services\\LlamaGateway.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Services\\LlamaGateway.cs",
               "RelativeDocumentMoniker": "AiService.Host\\Services\\LlamaGateway.cs",
-              "ToolTip": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Services\\LlamaGateway.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Services\\LlamaGateway.cs",
               "RelativeToolTip": "AiService.Host\\Services\\LlamaGateway.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAmwCYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -115,9 +113,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Program.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Program.cs",
               "RelativeDocumentMoniker": "AiService.Host\\Program.cs",
-              "ToolTip": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Program.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Program.cs",
               "RelativeToolTip": "AiService.Host\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -127,14 +125,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "LlamaRuntimeHostedService.cs",
-              "DocumentMoniker": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Services\\LlamaRuntimeHostedService.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Services\\LlamaRuntimeHostedService.cs",
               "RelativeDocumentMoniker": "AiService.Host\\Services\\LlamaRuntimeHostedService.cs",
-              "ToolTip": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\Services\\LlamaRuntimeHostedService.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\Services\\LlamaRuntimeHostedService.cs",
               "RelativeToolTip": "AiService.Host\\Services\\LlamaRuntimeHostedService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T10:05:28.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T10:05:28.852Z"
             }
           ]
         },

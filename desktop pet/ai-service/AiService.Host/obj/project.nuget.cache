@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TwpWLTCa2dg=",
+  "dgSpecHash": "n81w5t3QxZI=",
   "success": true,
-  "projectFilePath": "D:\\aiProject\\desktop pet\\ai-service\\AiService.Host\\AiService.Host.csproj",
+  "projectFilePath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\ai-service\\AiService.Host\\AiService.Host.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\13602\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.8\\microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
     "C:\\Users\\13602\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

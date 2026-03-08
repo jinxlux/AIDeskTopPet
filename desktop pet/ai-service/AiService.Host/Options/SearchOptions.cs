@@ -36,6 +36,21 @@ public sealed class SearchOptions
     public bool EnableModelDecision { get; set; } = true;
 
     /// <summary>
+    /// Number of news articles to fetch full text for layered summary.
+    /// </summary>
+    public int NewsSummaryArticleCount { get; set; } = 3;
+
+    /// <summary>
+    /// Max article text length (characters) kept for per-article summary.
+    /// </summary>
+    public int NewsSummaryArticleMaxChars { get; set; } = 1200;
+
+    /// <summary>
+    /// Max tokens used for each per-article summary.
+    /// </summary>
+    public int NewsSummaryPerArticleMaxTokens { get; set; } = 100;
+
+    /// <summary>
     /// RSS feed sources.
     /// </summary>
     public List<RssFeedOptions> RssFeeds { get; set; } = [];
