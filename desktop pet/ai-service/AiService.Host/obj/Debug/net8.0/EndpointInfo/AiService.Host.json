@@ -1,0 +1,280 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AiService.Host",
+    "version": "1.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "AiService.Host"
+        ],
+        "summary": "Health status",
+        "description": "Returns ai-service and local llama runtime status, including whether model process is healthy.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/admin/runtime/start": {
+      "post": {
+        "tags": [
+          "AiService.Host"
+        ],
+        "summary": "Start runtime",
+        "description": "Ensures llama-server process is started and healthy.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/admin/runtime/stop": {
+      "post": {
+        "tags": [
+          "AiService.Host"
+        ],
+        "summary": "Stop runtime",
+        "description": "Stops llama-server process if currently running.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/v1/models": {
+      "get": {
+        "tags": [
+          "AiService.Host"
+        ],
+        "summary": "List models",
+        "description": "Returns the default local model id exposed by this ai-service.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/v1/chat/completions": {
+      "post": {
+        "tags": [
+          "AiService.Host"
+        ],
+        "summary": "Chat completions",
+        "description": "OpenAI-compatible chat endpoint proxied to local llama-server with defaults injected when fields are missing.",
+        "requestBody": {
+          "description": "OpenAI-compatible chat request payload.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChatCompletionRequest"
+              },
+              "example": {
+                "model": "local-model",
+                "messages": [
+                  {
+                    "role": "system",
+                    "content": "你是桌宠小狗，说话简短可爱。"
+                  },
+                  {
+                    "role": "user",
+                    "content": "你好呀，今天过得怎么样？"
+                  }
+                ],
+                "temperature": 0.7,
+                "top_p": 0.9,
+                "max_tokens": 80
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Void"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/agent/search": {
+      "post": {
+        "tags": [
+          "AiService.Host"
+        ],
+        "summary": "Agent search",
+        "description": "Decides whether web retrieval is needed. If needed, gathers results from free RSS/site sources and optionally summarizes with local model.",
+        "requestBody": {
+          "description": "Agent search request. The service decides whether to use web retrieval.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgentSearchRequest"
+              },
+              "example": {
+                "query": "今天国内AI行业有什么新消息",
+                "maxResults": 5,
+                "needSummary": true
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentSearchResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AgentSearchItem": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "snippet": {
+            "type": "string",
+            "nullable": true
+          },
+          "publishedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AgentSearchRequest": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "nullable": true
+          },
+          "maxResults": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "needSummary": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AgentSearchResponse": {
+        "type": "object",
+        "properties": {
+          "usedWeb": {
+            "type": "boolean"
+          },
+          "decisionReason": {
+            "type": "string",
+            "nullable": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AgentSearchItem"
+            },
+            "nullable": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChatCompletionRequest": {
+        "type": "object",
+        "properties": {
+          "model": {
+            "type": "string",
+            "nullable": true
+          },
+          "messages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ChatMessage"
+            },
+            "nullable": true
+          },
+          "temperature": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "top_p": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "max_tokens": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChatMessage": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "content": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Void": {
+        "type": "object",
+        "additionalProperties": false
+      }
+    }
+  }
+}

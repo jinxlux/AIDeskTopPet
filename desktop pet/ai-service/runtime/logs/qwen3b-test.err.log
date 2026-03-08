@@ -1,0 +1,24 @@
+load_backend: loaded RPC backend from D:\ai项目\desktop pet\ai-service\runtime\ggml-rpc.dll
+load_backend: loaded CPU backend from D:\ai项目\desktop pet\ai-service\runtime\ggml-cpu-zen4.dll
+main: n_parallel is set to auto, using n_parallel = 4 and kv_unified = true
+build: 8224 (ba2fd11cd) with Clang 19.1.5 for Windows x86_64
+system info: n_threads = 8, n_threads_batch = 8, total_threads = 16
+
+system_info: n_threads = 8 (n_threads_batch = 8) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+Running without SSL
+init: using 15 threads for HTTP server
+start: binding port with default address family
+main: loading model
+srv    load_model: loading model 'D:\ai-project\desktop-pet\ai-service\modules\qwen2.5-3b-instruct-q4_k_m.gguf'
+common_init_result: fitting params to device memory, for bugs during this step try to reproduce them with -fit off, or provide --verbose logs if the bug only occurs with -fit on
+llama_model_load: error loading model: tensor 'blk.27.ffn_up.weight' data is not within the file bounds, model is corrupted or incomplete
+llama_model_load_from_file_impl: failed to load model
+llama_params_fit: encountered an error while trying to fit params to free device memory: failed to load model
+llama_params_fit: fitting params to free memory took 0.02 seconds
+llama_model_load: error loading model: tensor 'blk.27.ffn_up.weight' data is not within the file bounds, model is corrupted or incomplete
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model 'D:\ai-project\desktop-pet\ai-service\modules\qwen2.5-3b-instruct-q4_k_m.gguf'
+srv    load_model: failed to load model, 'D:\ai-project\desktop-pet\ai-service\modules\qwen2.5-3b-instruct-q4_k_m.gguf'
+srv    operator(): operator(): cleaning up before exit...
+main: exiting due to model loading error

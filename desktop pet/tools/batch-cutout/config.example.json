@@ -1,0 +1,6 @@
+﻿{
+  "canvas_size": 512,
+  "padding_ratio": 0.08,
+  "alpha_threshold": 12,
+  "model_name": "u2net"
+}

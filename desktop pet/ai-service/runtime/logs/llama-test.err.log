@@ -1,0 +1,3 @@
+load_backend: loaded RPC backend from D:\ai项目\desktop pet\ai-service\runtime\ggml-rpc.dll
+load_backend: loaded CPU backend from D:\ai项目\desktop pet\ai-service\runtime\ggml-cpu-zen4.dll
+error: invalid argument: pet\ai-service\models\Qwen2.5-14B_Uncensored_Instruct-Q4_K_M.gguf

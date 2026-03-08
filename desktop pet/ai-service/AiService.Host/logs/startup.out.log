@@ -1,0 +1,68 @@
+从 D:\ai项目\desktop pet\ai-service\AiService.Host\Properties\launchSettings.json 使用启动设置...
+正在生成...
+info: System.Net.Http.HttpClient.Default.LogicalHandler[100]
+      Start processing HTTP request GET http://127.0.0.1:18080/health
+info: System.Net.Http.HttpClient.Default.ClientHandler[100]
+      Sending HTTP request GET http://127.0.0.1:18080/health
+info: AiService.Host.Services.LlamaProcessManager[0]
+      Starting llama runtime: D:\ai项目\desktop pet\ai-service\runtime\llama-server.exe -m "D:\ai项目\desktop pet\ai-service\models\qwen2.5-1.5b-instruct-q4_k_m.gguf" --host 127.0.0.1 --port 18080 -c 4096 -t 8
+info: System.Net.Http.HttpClient.Default.LogicalHandler[100]
+      Start processing HTTP request GET http://127.0.0.1:18080/health
+info: System.Net.Http.HttpClient.Default.ClientHandler[100]
+      Sending HTTP request GET http://127.0.0.1:18080/health
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: load_backend: loaded RPC backend from D:\ai项目\desktop pet\ai-service\runtime\ggml-rpc.dll
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: load_backend: loaded CPU backend from D:\ai项目\desktop pet\ai-service\runtime\ggml-cpu-zen4.dll
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: main: n_parallel is set to auto, using n_parallel = 4 and kv_unified = true
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: build: 8224 (ba2fd11cd) with Clang 19.1.5 for Windows x86_64
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: system info: n_threads = 8, n_threads_batch = 8, total_threads = 16
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: system_info: n_threads = 8 (n_threads_batch = 8) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: Running without SSL
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: init: using 15 threads for HTTP server
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: start: binding port with default address family
+info: System.Net.Http.HttpClient.Default.ClientHandler[101]
+      Received HTTP response headers after 53.2484ms - 503
+info: System.Net.Http.HttpClient.Default.LogicalHandler[101]
+      End processing HTTP request after 55.9414ms - 503
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: main: loading model
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: srv    load_model: loading model 'D:\ai��Ŀ\desktop pet\ai-service\models\qwen2.5-1.5b-instruct-q4_k_m.gguf'
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: common_init_result: fitting params to device memory, for bugs during this step try to reproduce them with -fit off, or provide --verbose logs if the bug only occurs with -fit on
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: gguf_init_from_file: failed to open GGUF file 'D:\ai��Ŀ\desktop pet\ai-service\models\qwen2.5-1.5b-instruct-q4_k_m.gguf' (No such file or directory)
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: llama_model_load: error loading model: llama_model_loader: failed to load model from D:\ai��Ŀ\desktop pet\ai-service\models\qwen2.5-1.5b-instruct-q4_k_m.gguf
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: llama_model_load_from_file_impl: failed to load model
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: llama_params_fit: encountered an error while trying to fit params to free device memory: failed to load model
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: llama_params_fit: fitting params to free memory took -0.02 seconds
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: gguf_init_from_file: failed to open GGUF file 'D:\ai��Ŀ\desktop pet\ai-service\models\qwen2.5-1.5b-instruct-q4_k_m.gguf' (No such file or directory)
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: llama_model_load: error loading model: llama_model_loader: failed to load model from D:\ai��Ŀ\desktop pet\ai-service\models\qwen2.5-1.5b-instruct-q4_k_m.gguf
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: llama_model_load_from_file_impl: failed to load model
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: common_init_from_params: failed to load model 'D:\ai��Ŀ\desktop pet\ai-service\models\qwen2.5-1.5b-instruct-q4_k_m.gguf'
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: srv    load_model: failed to load model, 'D:\ai��Ŀ\desktop pet\ai-service\models\qwen2.5-1.5b-instruct-q4_k_m.gguf'
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: srv    operator(): operator(): cleaning up before exit...
+warn: AiService.Host.Services.LlamaProcessManager[0]
+      llama-server: main: exiting due to model loading error
+info: System.Net.Http.HttpClient.Default.LogicalHandler[100]
+      Start processing HTTP request GET http://127.0.0.1:18080/health
+info: System.Net.Http.HttpClient.Default.ClientHandler[100]
+      Sending HTTP request GET http://127.0.0.1:18080/health
