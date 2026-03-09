@@ -167,7 +167,11 @@ python video_pipeline.py --input "D:\...\prephotos\video.mp4" --output "D:\...\a
 
 ### 3) 宠物 API 没结果
 
-部分第三方 API 可能限流或返回 403。可优先使用 Wikimedia OpenSearch 作为稳定兜底来源。
+部分第三方 API 可能限流或返回 403。可优先使用 Wikimedia OpenSearch 作为稳定兜底来源。联网搜索如果是中国内网，可能部分搜索不可用，效果不好
+
+## 工具使用
+
+代码大部分通过codex辅助生成。人工主要是审核和给定计划框架
 
 ## 许可证
 
