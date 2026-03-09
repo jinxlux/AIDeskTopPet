@@ -1,0 +1,16 @@
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\bin\Release\net8.0\DesktopPet.Infrastructure.deps.json
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\bin\Release\net8.0\DesktopPet.Infrastructure.dll
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\bin\Release\net8.0\DesktopPet.Infrastructure.pdb
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\bin\Release\net8.0\DesktopPet.Core.dll
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\bin\Release\net8.0\DesktopPet.Core.pdb
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\DesktopPet.Infrastructure.csproj.AssemblyReference.cache
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\DesktopPet.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\DesktopPet.Infrastructure.AssemblyInfoInputs.cache
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\DesktopPet.Infrastructure.AssemblyInfo.cs
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\DesktopPet.Infrastructure.csproj.CoreCompileInputs.cache
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\DesktopPet.Infrastructure.sourcelink.json
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\DesktopP.5DB0C3EC.Up2Date
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\DesktopPet.Infrastructure.dll
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\refint\DesktopPet.Infrastructure.dll
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\DesktopPet.Infrastructure.pdb
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Infrastructure\obj\Release\net8.0\ref\DesktopPet.Infrastructure.dll

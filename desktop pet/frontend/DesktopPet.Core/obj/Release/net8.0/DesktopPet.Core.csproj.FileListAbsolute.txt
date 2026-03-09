@@ -1,0 +1,12 @@
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\bin\Release\net8.0\DesktopPet.Core.deps.json
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\bin\Release\net8.0\DesktopPet.Core.dll
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\bin\Release\net8.0\DesktopPet.Core.pdb
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\obj\Release\net8.0\DesktopPet.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\obj\Release\net8.0\DesktopPet.Core.AssemblyInfoInputs.cache
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\obj\Release\net8.0\DesktopPet.Core.AssemblyInfo.cs
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\obj\Release\net8.0\DesktopPet.Core.csproj.CoreCompileInputs.cache
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\obj\Release\net8.0\DesktopPet.Core.sourcelink.json
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\obj\Release\net8.0\DesktopPet.Core.dll
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\obj\Release\net8.0\refint\DesktopPet.Core.dll
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\obj\Release\net8.0\DesktopPet.Core.pdb
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Core\obj\Release\net8.0\ref\DesktopPet.Core.dll
