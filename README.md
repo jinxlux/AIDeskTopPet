@@ -97,8 +97,8 @@ dotnet run
 
 - 目录：`desktop pet/ai-service/models/`
 - 当前默认文件名（按现有配置）：`qwen2.5-7b-instruct-q4_k_m.gguf`
-- 完整示例路径：
-  `D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\models\qwen2.5-7b-instruct-q4_k_m.gguf`
+- 示例路径：
+  `\desktop pet\ai-service\models\qwen2.5-7b-instruct-q4_k_m.gguf`
 
 若你使用其他模型，请同步修改：
 
