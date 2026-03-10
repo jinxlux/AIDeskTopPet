@@ -56,7 +56,7 @@ dotnet build DesktopPet.sln
 ## 2. 启动 AI 服务（ai-service，可选手动）
 
 ```powershell
-cd "D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\AiService.Host"
+cd "{占位符，你下载项目的位置}\desktop pet\ai-service\AiService.Host"
 dotnet run
 ```
 
