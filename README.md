@@ -4,9 +4,9 @@
 
 ## 项目路径
 
-当前仓库主目录：
+当前代码主目录：
 
-`D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet`
+`\desktop pet`
 
 ## 目录结构
 
@@ -44,7 +44,7 @@ AIDeskTopPet/
 ## 1. 启动桌宠（Frontend）
 
 ```powershell
-cd "D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend"
+cd "{占位符，你下载项目的位置}\desktop pet\frontend"
 dotnet build DesktopPet.sln
 ```
 
