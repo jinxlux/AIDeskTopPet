@@ -4,9 +4,9 @@
 
 ## 项目路径
 
-当前仓库主目录：
+当前代码主目录：
 
-`D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet`
+`\desktop pet`
 
 ## 目录结构
 
@@ -44,7 +44,7 @@ AIDeskTopPet/
 ## 1. 启动桌宠（Frontend）
 
 ```powershell
-cd "D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend"
+cd "{占位符，你下载项目的位置}\desktop pet\frontend"
 dotnet build DesktopPet.sln
 ```
 
@@ -56,7 +56,7 @@ dotnet build DesktopPet.sln
 ## 2. 启动 AI 服务（ai-service，可选手动）
 
 ```powershell
-cd "D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\AiService.Host"
+cd "{占位符，你下载项目的位置}\desktop pet\ai-service\AiService.Host"
 dotnet run
 ```
 
@@ -97,8 +97,8 @@ dotnet run
 
 - 目录：`desktop pet/ai-service/models/`
 - 当前默认文件名（按现有配置）：`qwen2.5-7b-instruct-q4_k_m.gguf`
-- 完整示例路径：
-  `D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\models\qwen2.5-7b-instruct-q4_k_m.gguf`
+- 示例路径：
+  `\desktop pet\ai-service\models\qwen2.5-7b-instruct-q4_k_m.gguf`
 
 若你使用其他模型，请同步修改：
 
@@ -167,7 +167,11 @@ python video_pipeline.py --input "D:\...\prephotos\video.mp4" --output "D:\...\a
 
 ### 3) 宠物 API 没结果
 
-部分第三方 API 可能限流或返回 403。可优先使用 Wikimedia OpenSearch 作为稳定兜底来源。
+部分第三方 API 可能限流或返回 403。可优先使用 Wikimedia OpenSearch 作为稳定兜底来源。联网搜索如果是中国内网，可能部分搜索不可用，效果不好
+
+## 工具使用
+
+代码大部分通过codex辅助生成。人工主要是审核和给定计划框架
 
 ## 许可证
 
