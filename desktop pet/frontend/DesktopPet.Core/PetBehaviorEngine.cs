@@ -56,6 +56,15 @@ public sealed class PetBehaviorEngine
     }
 
     /// <summary>
+    /// Attempts to enter interact state.
+    /// </summary>
+    public bool TrySpeak(DateTimeOffset now)
+    {
+        CurrentState = PetState.Speak;
+        return true;
+    }
+
+    /// <summary>
     /// Progresses internal timers and exits interact state when needed.
     /// </summary>
     /// <param name="now">Current time used for deterministic transitions.</param>

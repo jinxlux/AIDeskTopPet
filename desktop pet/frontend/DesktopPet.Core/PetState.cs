@@ -14,4 +14,9 @@ public enum PetState
     /// Temporary state shown after interaction.
     /// </summary>
     Interact,
+
+    /// <summary>
+    /// speaking state shown when answering user.
+    /// </summary>
+    Speak,
 }
