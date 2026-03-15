@@ -1,4 +1,4 @@
-# Prerequisites
+﻿# Prerequisites
 *.d
 
 # Compiled Object files
@@ -39,6 +39,9 @@
 
 # debug information files
 *.dwo
+
+# Visual Studio local cache
+.vs/
 
 # Local LLM models (do not track large model files)
 desktop pet/ai-service/models/*

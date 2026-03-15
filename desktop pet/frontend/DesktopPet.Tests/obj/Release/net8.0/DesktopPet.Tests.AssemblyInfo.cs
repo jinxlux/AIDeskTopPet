@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DesktopPet.Infrastructure")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DesktopPet.Tests")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02f22ce2e31d933d772d918c5e53f990265c9d09")]
-[assembly: System.Reflection.AssemblyProductAttribute("DesktopPet.Infrastructure")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DesktopPet.Infrastructure")]
+[assembly: System.Reflection.AssemblyProductAttribute("DesktopPet.Tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DesktopPet.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
