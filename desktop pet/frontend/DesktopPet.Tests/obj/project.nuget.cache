@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "s1PuormmjSM=",
+  "dgSpecHash": "DMOZsNu1LVg=",
   "success": true,
   "projectFilePath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Tests\\DesktopPet.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\13602\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\13602\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\13602\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\13602\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",

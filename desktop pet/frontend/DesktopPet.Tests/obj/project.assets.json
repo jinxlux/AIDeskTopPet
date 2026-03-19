@@ -1,7 +1,23 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net8.0-windows7.0": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
@@ -1709,6 +1725,24 @@
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
       },
+      "DesktopPet.App/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "DesktopPet.Core": "1.0.0",
+          "DesktopPet.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesktopPet.App.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesktopPet.App.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
       "DesktopPet.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1735,6 +1769,37 @@
     }
   },
   "libraries": {
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "sha512": "r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
     "coverlet.collector/6.0.0": {
       "sha512": "tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "type": "package",
@@ -5521,6 +5586,11 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "DesktopPet.App/1.0.0": {
+      "type": "project",
+      "path": "../DesktopPet.App/DesktopPet.App.csproj",
+      "msbuildProject": "../DesktopPet.App/DesktopPet.App.csproj"
+    },
     "DesktopPet.Core/1.0.0": {
       "type": "project",
       "path": "../DesktopPet.Core/DesktopPet.Core.csproj",
@@ -5533,7 +5603,8 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net8.0-windows7.0": [
+      "DesktopPet.App >= 1.0.0",
       "DesktopPet.Core >= 1.0.0",
       "DesktopPet.Infrastructure >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
@@ -5564,16 +5635,19 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net8.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\DesktopPet.App.csproj": {
+              "projectPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\DesktopPet.App.csproj"
+            },
             "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\DesktopPet.Core.csproj": {
               "projectPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\DesktopPet.Core.csproj"
             },
@@ -5596,8 +5670,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

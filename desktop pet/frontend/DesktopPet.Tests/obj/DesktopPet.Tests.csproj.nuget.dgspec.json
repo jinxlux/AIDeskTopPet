@@ -4,6 +4,87 @@
     "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Tests\\DesktopPet.Tests.csproj": {}
   },
   "projects": {
+    "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\DesktopPet.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\DesktopPet.App.csproj",
+        "projectName": "DesktopPet.App",
+        "projectPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\DesktopPet.App.csproj",
+        "packagesPath": "C:\\Users\\13602\\.nuget\\packages\\",
+        "outputPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\13602\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\DesktopPet.Core.csproj": {
+                "projectPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\DesktopPet.Core.csproj"
+              },
+              "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Infrastructure\\DesktopPet.Infrastructure.csproj": {
+                "projectPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Infrastructure\\DesktopPet.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\DesktopPet.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -156,16 +237,19 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {
+              "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\DesktopPet.App.csproj": {
+                "projectPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\DesktopPet.App.csproj"
+              },
               "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\DesktopPet.Core.csproj": {
                 "projectPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\DesktopPet.Core.csproj"
               },
@@ -188,8 +272,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
