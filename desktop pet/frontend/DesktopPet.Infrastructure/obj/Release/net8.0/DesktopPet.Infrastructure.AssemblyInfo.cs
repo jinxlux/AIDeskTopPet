@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesktopPet.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18f1fc795ee1dbe4993240e5e2a63e9b96bf148c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a48ebe6cd0eddf493f9ff283ce1ce944625c6ea7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesktopPet.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesktopPet.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

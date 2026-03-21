@@ -19,4 +19,9 @@ public sealed class PetSettings
     /// Gets or sets whether rendering prioritizes smooth playback over visual quality.
     /// </summary>
     public bool PreferSmoothRendering { get; set; } = true;
+
+    /// <summary>
+    /// Gets or sets current runtime character id.
+    /// </summary>
+    public string CurrentCharacterId { get; set; } = "dog_default";
 }

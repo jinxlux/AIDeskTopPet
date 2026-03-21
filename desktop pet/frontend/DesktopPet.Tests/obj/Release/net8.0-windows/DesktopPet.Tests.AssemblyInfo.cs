@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DesktopPet.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DesktopPet.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a48ebe6cd0eddf493f9ff283ce1ce944625c6ea7")]
-[assembly: System.Reflection.AssemblyProductAttribute("DesktopPet.Core")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DesktopPet.Core")]
+[assembly: System.Reflection.AssemblyProductAttribute("DesktopPet.Tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DesktopPet.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 
