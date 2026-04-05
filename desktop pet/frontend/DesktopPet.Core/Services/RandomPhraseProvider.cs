@@ -7,10 +7,10 @@ public sealed class RandomPhraseProvider
 {
     private static readonly IReadOnlyList<string> DefaultPhrases =
     [
-        "汪~",
-        "摸摸头！",
         "我在这里。",
         "今天也要开心。",
+        "来互动一下吧。",
+        "我会陪着你。",
     ];
 
     private readonly IReadOnlyList<string> _phrases;
@@ -28,11 +28,20 @@ public sealed class RandomPhraseProvider
     /// <summary>
     /// Returns a random phrase.
     /// </summary>
-    /// <param name="random">Random generator used to select phrase index.</param>
-    /// <returns>A non-empty phrase.</returns>
     public string GetRandomPhrase(Random random)
     {
         ArgumentNullException.ThrowIfNull(random);
         return _phrases[random.Next(_phrases.Count)];
+    }
+
+    /// <summary>
+    /// Returns a random phrase from the provided override list, or falls back to the provider phrases.
+    /// </summary>
+    public string GetRandomPhrase(Random random, IEnumerable<string>? overridePhrases)
+    {
+        ArgumentNullException.ThrowIfNull(random);
+        var normalized = overridePhrases?.Where(static text => !string.IsNullOrWhiteSpace(text)).ToArray() ?? [];
+        var source = normalized.Length == 0 ? _phrases : normalized;
+        return source[random.Next(source.Count)];
     }
 }

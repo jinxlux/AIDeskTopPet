@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\services\\settingsdialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\services\\settingsdialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\chatinputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\chatinputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\chatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\chatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\viewmodels\\settingwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,18 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\prompttextwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\prompttextwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\chatinputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\chatinputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\settingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\settingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\chatinputwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,10 +77,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\13602\\AppData\\Local\\Temp\\.vsdbgsrc\\ffb06392b839f62cf124426b63eba322c878a6b8e88240457fb092d50fa62e28\\SettingWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\chatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\chatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -99,10 +103,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\assets\\idleres\\idle1\\08.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\assets\\idleres\\idle1\\08.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|d:\\githubproject\\desktoppetaiagent\\aidesktoppet\\desktop pet\\frontend\\desktoppet.app\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BD7F1B8-0C94-4A64-AE89-5C71A703C981}|DesktopPet.App\\DesktopPet.App.csproj|solutionrelative:desktoppet.app\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -128,33 +128,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PetState.cs",
-              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\PetState.cs",
-              "RelativeDocumentMoniker": "DesktopPet.Core\\PetState.cs",
-              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\PetState.cs",
-              "RelativeToolTip": "DesktopPet.Core\\PetState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T05:28:51.957Z",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DesktopPet.App\\MainWindow.xaml",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\MainWindow.xaml",
+              "RelativeToolTip": "DesktopPet.App\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-05T07:09:54.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PetBehaviorEngine.cs",
-              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\PetBehaviorEngine.cs",
-              "RelativeDocumentMoniker": "DesktopPet.Core\\PetBehaviorEngine.cs",
-              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\PetBehaviorEngine.cs",
-              "RelativeToolTip": "DesktopPet.Core\\PetBehaviorEngine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DesktopPet.App\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DesktopPet.App\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAUwFMBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T04:16:36.555Z",
+              "WhenOpened": "2026-03-09T14:52:15.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SettingsDialogService.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\Services\\SettingsDialogService.cs",
+              "RelativeDocumentMoniker": "DesktopPet.App\\Services\\SettingsDialogService.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\Services\\SettingsDialogService.cs",
+              "RelativeToolTip": "DesktopPet.App\\Services\\SettingsDialogService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:54:45.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatInputWindow.xaml",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatInputWindow.xaml",
+              "RelativeDocumentMoniker": "DesktopPet.App\\ChatInputWindow.xaml",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatInputWindow.xaml",
+              "RelativeToolTip": "DesktopPet.App\\ChatInputWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-21T08:05:56.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatWindow.xaml",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatWindow.xaml",
+              "RelativeDocumentMoniker": "DesktopPet.App\\ChatWindow.xaml",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatWindow.xaml",
+              "RelativeToolTip": "DesktopPet.App\\ChatWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T04:17:09.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DesktopPet.App\\AssemblyInfo.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\AssemblyInfo.cs",
+              "RelativeToolTip": "DesktopPet.App\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T05:27:22.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\App.xaml.cs",
               "RelativeDocumentMoniker": "DesktopPet.App\\App.xaml.cs",
@@ -167,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "SettingWindowViewModel.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ViewModels\\SettingWindowViewModel.cs",
               "RelativeDocumentMoniker": "DesktopPet.App\\ViewModels\\SettingWindowViewModel.cs",
@@ -175,25 +224,35 @@
               "RelativeToolTip": "DesktopPet.App\\ViewModels\\SettingWindowViewModel.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAAASwIwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T13:14:32.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T13:14:32.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DesktopPet.App\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DesktopPet.App\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAASwFsAAAANAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PetBehaviorEngine.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\PetBehaviorEngine.cs",
+              "RelativeDocumentMoniker": "DesktopPet.Core\\PetBehaviorEngine.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\PetBehaviorEngine.cs",
+              "RelativeToolTip": "DesktopPet.Core\\PetBehaviorEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T14:52:15.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T04:16:36.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "PetState.cs",
+              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\PetState.cs",
+              "RelativeDocumentMoniker": "DesktopPet.Core\\PetState.cs",
+              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\PetState.cs",
+              "RelativeToolTip": "DesktopPet.Core\\PetState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T05:28:51.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "JsonSettingsService.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Infrastructure\\JsonSettingsService.cs",
               "RelativeDocumentMoniker": "DesktopPet.Infrastructure\\JsonSettingsService.cs",
@@ -201,23 +260,11 @@
               "RelativeToolTip": "DesktopPet.Infrastructure\\JsonSettingsService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T15:13:16.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T15:13:16.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SettingWindow.xaml",
-              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\SettingWindow.xaml",
-              "RelativeDocumentMoniker": "DesktopPet.App\\SettingWindow.xaml",
-              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\SettingWindow.xaml",
-              "RelativeToolTip": "DesktopPet.App\\SettingWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T12:15:47.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "08.png -  [\u4E2D\u6587(\u7B80\u4F53\uFF0C\u4E2D\u56FD)] - PNG [219x314, 32 \u4F4D, PNG]",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\Assets\\idleRes\\idle1\\08.png",
               "RelativeDocumentMoniker": "DesktopPet.App\\Assets\\idleRes\\idle1\\08.png",
@@ -229,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "PromptTextWindow.xaml.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\PromptTextWindow.xaml.cs",
               "RelativeDocumentMoniker": "DesktopPet.App\\PromptTextWindow.xaml.cs",
@@ -241,29 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "DesktopPet.App\\MainWindow.xaml",
-              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\MainWindow.xaml",
-              "RelativeToolTip": "DesktopPet.App\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T08:06:22.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ChatInputWindow.xaml",
-              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatInputWindow.xaml",
-              "RelativeDocumentMoniker": "DesktopPet.App\\ChatInputWindow.xaml",
-              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatInputWindow.xaml",
-              "RelativeToolTip": "DesktopPet.App\\ChatInputWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T08:05:56.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ChatInputWindow.xaml.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatInputWindow.xaml.cs",
               "RelativeDocumentMoniker": "DesktopPet.App\\ChatInputWindow.xaml.cs",
@@ -275,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SettingWindow.xaml.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\SettingWindow.xaml.cs",
               "RelativeDocumentMoniker": "DesktopPet.App\\SettingWindow.xaml.cs",
@@ -287,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ChatInputWindowViewModel.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ViewModels\\ChatInputWindowViewModel.cs",
               "RelativeDocumentMoniker": "DesktopPet.App\\ViewModels\\ChatInputWindowViewModel.cs",
@@ -299,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "DesktopPet.App\\ViewModels\\MainWindowViewModel.cs",
@@ -311,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ChatWindow.xaml.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatWindow.xaml.cs",
               "RelativeDocumentMoniker": "DesktopPet.App\\ChatWindow.xaml.cs",
@@ -323,19 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "DesktopPet.App\\AssemblyInfo.cs",
-              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\AssemblyInfo.cs",
-              "RelativeToolTip": "DesktopPet.App\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T05:27:22.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\13602\\AppData\\Local\\Temp\\.vsdbgsrc\\8a289e89223ecbdcca5ab6a1f690d95c304b94be03c363dbc1658ff2926217a8\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\13602\\AppData\\Local\\Temp\\.vsdbgsrc\\8a289e89223ecbdcca5ab6a1f690d95c304b94be03c363dbc1658ff2926217a8\\MainWindow.xaml.cs",
@@ -345,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "SettingWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\13602\\AppData\\Local\\Temp\\.vsdbgsrc\\ffb06392b839f62cf124426b63eba322c878a6b8e88240457fb092d50fa62e28\\SettingWindow.xaml.cs",
               "ToolTip": "C:\\Users\\13602\\AppData\\Local\\Temp\\.vsdbgsrc\\ffb06392b839f62cf124426b63eba322c878a6b8e88240457fb092d50fa62e28\\SettingWindow.xaml.cs",
@@ -355,29 +368,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ChatWindow.xaml",
-              "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatWindow.xaml",
-              "RelativeDocumentMoniker": "DesktopPet.App\\ChatWindow.xaml",
-              "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\ChatWindow.xaml",
-              "RelativeToolTip": "DesktopPet.App\\ChatWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T04:17:09.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\App.xaml",
               "RelativeDocumentMoniker": "DesktopPet.App\\App.xaml",
               "ToolTip": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\App.xaml",
               "RelativeToolTip": "DesktopPet.App\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-01T05:28:27.912Z"
+              "WhenOpened": "2026-03-01T05:28:27.912Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ISettingsService.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.Core\\Services\\ISettingsService.cs",
               "RelativeDocumentMoniker": "DesktopPet.Core\\Services\\ISettingsService.cs",
@@ -389,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AiChatService.cs",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\Services\\AiChatService.cs",
               "RelativeDocumentMoniker": "DesktopPet.App\\Services\\AiChatService.cs",
@@ -401,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "tray.ico -  [\u4E2D\u6587(\u7B80\u4F53\uFF0C\u4E2D\u56FD)] - Icon [32x32, 4 \u4F4D, BMP]",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\Assets\\tray.ico",
               "RelativeDocumentMoniker": "DesktopPet.App\\Assets\\tray.ico",
@@ -413,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "idle.png -  [\u4E2D\u6587(\u7B80\u4F53\uFF0C\u4E2D\u56FD)] - PNG [512x512, 32 \u4F4D, PNG]",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\Assets\\idle.png",
               "RelativeDocumentMoniker": "DesktopPet.App\\Assets\\idle.png",
@@ -425,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "interact.png -  [\u4E2D\u6587(\u7B80\u4F53\uFF0C\u4E2D\u56FD)] - PNG [512x512, 32 \u4F4D, PNG]",
               "DocumentMoniker": "D:\\githubProject\\DesktopPetAiAgent\\AIDeskTopPet\\desktop pet\\frontend\\DesktopPet.App\\Assets\\interact.png",
               "RelativeDocumentMoniker": "DesktopPet.App\\Assets\\interact.png",

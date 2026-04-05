@@ -334,3 +334,4 @@ D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.
 D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Tests\obj\Debug\net8.0-windows\DesktopPet.Tests.pdb
 D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Tests\obj\Debug\net8.0-windows\DesktopPet.Tests.genruntimeconfig.cache
 D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Tests\obj\Debug\net8.0-windows\ref\DesktopPet.Tests.dll
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\frontend\DesktopPet.Tests\bin\Debug\net8.0-windows\Assets\no-animation.png

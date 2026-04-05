@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,14 +18,15 @@ public class PetChatSessionServiceTests
         {
             var fakeChat = new FakeAiChatService
             {
-                ReplyFactory = _ => "汪~收到",
+                ReplyFactory = _ => "收到啦",
                 JudgeReply = "NO",
             };
 
-            var service = new PetChatSessionService(fakeChat, storageDir);
+            var assetService = new PetAssetService(Path.Combine(storageDir, "Assets"));
+            var service = new PetChatSessionService(fakeChat, assetService, storageDir);
 
             await service.SendAsync("记住你叫阿东", useWebSearch: false, CancellationToken.None);
-            await service.SendAsync("你叫什么", useWebSearch: false, CancellationToken.None);
+            await service.SendAsync("你叫什么？", useWebSearch: false, CancellationToken.None);
 
             var secondTurnMessages = fakeChat.ChatAsPetInputs.Last();
             var memorySystemMessage = secondTurnMessages
@@ -54,7 +55,8 @@ public class PetChatSessionServiceTests
                 JudgeReply = "YES",
             };
 
-            var service = new PetChatSessionService(fakeChat, storageDir);
+            var assetService = new PetAssetService(Path.Combine(storageDir, "Assets"));
+            var service = new PetChatSessionService(fakeChat, assetService, storageDir);
             await service.SendAsync("我今天在公司开会", useWebSearch: false, CancellationToken.None);
 
             Assert.Equal(1, fakeChat.ChatJudgeCallCount);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesktopPet.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a48ebe6cd0eddf493f9ff283ce1ce944625c6ea7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bbb8dd938c8f43c72b7768b1b9b04df6ae0e4db")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesktopPet.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesktopPet.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

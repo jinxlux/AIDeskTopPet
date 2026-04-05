@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.Messaging;
@@ -141,12 +142,36 @@ public class SettingWindowViewModelTests
 
         public IReadOnlyList<AnimationAssetEntry> ListEntries() => [.. _items];
         public IReadOnlyList<PetCharacterAssetEntry> ListCharacters() => [.. _characters];
-        public bool CharacterExists(string characterId) => string.Equals(characterId, DefaultCharacterId, StringComparison.OrdinalIgnoreCase);
 
-        public string CreateCharacter(string displayName)
+        public PetCharacterAssetEntry? GetCharacter(string characterId)
+            => _characters.FirstOrDefault(x => string.Equals(x.Id, characterId, StringComparison.OrdinalIgnoreCase));
+
+        public void UpdateCharacterProfile(PetCharacterAssetEntry character)
+        {
+            var existing = _characters.First(x => string.Equals(x.Id, character.Id, StringComparison.OrdinalIgnoreCase));
+            existing.DisplayName = character.DisplayName;
+            existing.Species = character.Species;
+            existing.PersonalityKeywords = [.. character.PersonalityKeywords];
+            existing.OwnerCall = character.OwnerCall;
+            existing.SelfCall = character.SelfCall;
+            existing.IdentityPrompt = character.IdentityPrompt;
+            existing.IdlePhrases = [.. character.IdlePhrases];
+            existing.InteractPhrases = [.. character.InteractPhrases];
+        }
+
+        public bool CharacterExists(string characterId) => _characters.Exists(x => string.Equals(x.Id, characterId, StringComparison.OrdinalIgnoreCase));
+
+        public string CreateCharacter(string displayName, string? species = null, IEnumerable<string>? personalityKeywords = null)
         {
             var id = displayName;
-            _characters.Add(new PetCharacterAssetEntry { Id = id, DisplayName = displayName, RelativeRootPath = $@"Characters\{id}" });
+            _characters.Add(new PetCharacterAssetEntry
+            {
+                Id = id,
+                DisplayName = displayName,
+                Species = species ?? string.Empty,
+                PersonalityKeywords = personalityKeywords?.ToList() ?? [],
+                RelativeRootPath = $@"Characters\{id}",
+            });
             return id;
         }
 
@@ -209,12 +234,17 @@ public class SettingWindowViewModelTests
     {
         public string? PickedPath { get; set; }
         public string? LastError { get; private set; }
-        public string? PromptResult { get; set; }
+        public Queue<string?> PromptResults { get; } = new();
 
         public string? PickVideoFilePath() => PickedPath;
-        public string? PromptText(string title, string message, string? defaultValue = null) => PromptResult;
+
+        public string? PromptText(string title, string message, string? defaultValue = null)
+            => PromptResults.Count > 0 ? PromptResults.Dequeue() : defaultValue;
+
         public void ShowInfo(string message, string title = "提示") { }
         public void ShowError(string message, string title = "错误") => LastError = message;
         public bool Confirm(string message, string title) => true;
     }
 }
+
+
