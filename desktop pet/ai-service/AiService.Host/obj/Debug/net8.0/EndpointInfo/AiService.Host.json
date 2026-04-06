@@ -47,13 +47,65 @@
         }
       }
     },
+    "/admin/models": {
+      "get": {
+        "tags": [
+          "AiService.Host"
+        ],
+        "summary": "List local GGUF models",
+        "description": "Returns all GGUF models found under ai-service/models, plus current selection.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/admin/models/current": {
+      "get": {
+        "tags": [
+          "AiService.Host"
+        ],
+        "summary": "Get current model",
+        "description": "Returns the currently configured local GGUF model and process state.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/admin/models/switch": {
+      "post": {
+        "tags": [
+          "AiService.Host"
+        ],
+        "summary": "Switch current model",
+        "description": "Switches the configured GGUF model, persists config, and restarts llama runtime when already running.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ModelSwitchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/v1/models": {
       "get": {
         "tags": [
           "AiService.Host"
         ],
         "summary": "List models",
-        "description": "Returns the default local model id exposed by this ai-service.",
+        "description": "Returns locally available GGUF models exposed by this ai-service, including which one is currently selected.",
         "responses": {
           "200": {
             "description": "OK"
@@ -265,6 +317,20 @@
             "nullable": true
           },
           "content": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ModelSwitchRequest": {
+        "type": "object",
+        "properties": {
+          "relativeModelPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "defaultModelId": {
             "type": "string",
             "nullable": true
           }

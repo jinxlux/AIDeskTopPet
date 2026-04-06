@@ -19,6 +19,7 @@ builder.Services.Configure<LlmRuntimeOptions>(builder.Configuration.GetSection(L
 builder.Services.Configure<SearchOptions>(builder.Configuration.GetSection(SearchOptions.SectionName));
 builder.Services.AddHttpClient();
 builder.Services.AddSingleton<LlamaProcessManager>();
+builder.Services.AddSingleton<ModelManagementService>();
 builder.Services.AddSingleton<LlamaGateway>();
 builder.Services.AddSingleton<SearchDecisionService>();
 builder.Services.AddSingleton<IWebSearchProvider, RssSearchProvider>();
@@ -55,25 +56,45 @@ app.MapPost("/admin/runtime/stop", async (LlamaProcessManager manager) =>
 .WithSummary("Stop runtime")
 .WithDescription("Stops llama-server process if currently running.");
 
-app.MapGet("/v1/models", (LlamaProcessManager manager) =>
+app.MapGet("/admin/models", (ModelManagementService service) =>
 {
-    var modelId = manager.Options.DefaultModelId;
+    return Results.Ok(service.GetModels());
+})
+.WithSummary("List local GGUF models")
+.WithDescription("Returns all GGUF models found under ai-service/models, plus current selection.");
+
+app.MapGet("/admin/models/current", (ModelManagementService service) =>
+{
+    return Results.Ok(service.GetCurrentModel());
+})
+.WithSummary("Get current model")
+.WithDescription("Returns the currently configured local GGUF model and process state.");
+
+app.MapPost("/admin/models/switch", async (ModelSwitchRequest request, ModelManagementService service, CancellationToken cancellationToken) =>
+{
+    var result = await service.SwitchModelAsync(request, cancellationToken);
+    return Results.Ok(result);
+})
+.WithSummary("Switch current model")
+.WithDescription("Switches the configured GGUF model, persists config, and restarts llama runtime when already running.");
+
+app.MapGet("/v1/models", (ModelManagementService service) =>
+{
+    var models = service.GetModels();
     return Results.Ok(new
     {
         @object = "list",
-        data = new[]
+        data = models.Items.Select(item => new
         {
-            new
-            {
-                id = modelId,
-                @object = "model",
-                owned_by = "local",
-            },
-        },
+            id = item.ModelId,
+            @object = "model",
+            owned_by = "local",
+            current = item.IsCurrent,
+        }),
     });
 })
 .WithSummary("List models")
-.WithDescription("Returns the default local model id exposed by this ai-service.");
+.WithDescription("Returns locally available GGUF models exposed by this ai-service, including which one is currently selected.");
 
 app.MapPost("/v1/chat/completions", async (ChatCompletionRequest request, LlamaGateway gateway, CancellationToken cancellationToken) =>
 {
@@ -195,5 +216,3 @@ app.MapPost("/v1/agent/search", async (AgentSearchRequest request, AgentSearchSe
 });
 
 app.Run();
-
-

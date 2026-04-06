@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.Messaging;
 using DesktopPet.App.Messaging;
 using DesktopPet.App.Services;
+using DesktopPet.Core.Services;
+using DesktopPet.Core.Models;
 using DesktopPet.App.ViewModels;
 
 namespace DesktopPet.Tests.App;
@@ -39,9 +41,9 @@ public class SettingWindowViewModelTests
         var dialog = new FakeDialogService { PickedPath = @"D:\video\dog.mp4" };
         var messenger = new WeakReferenceMessenger();
         var messageReceived = false;
-        messenger.Register<AssetsChangedMessage>(this, (_, _) => messageReceived = true);
+        messenger.Register<DeleteCharacterMessage>(this, (_, _) => messageReceived = true);
 
-        var vm = new SettingWindowViewModel(catalog, import, dialog, messenger);
+        var vm = new SettingWindowViewModel(catalog, import, dialog, new FakeSettingsService(), messenger);
         vm.SelectedCharacter = Assert.Single(vm.CharacterItems, x => x.Id == "dog_default");
         vm.BrowseVideoCommand.Execute(null);
         vm.SequenceName = "idle-custom-a";
@@ -90,7 +92,7 @@ public class SettingWindowViewModelTests
         var messenger = new WeakReferenceMessenger();
         string? received = null;
         messenger.Register<CurrentCharacterChangedMessage>(this, (_, m) => received = m.Value);
-        var vm = new SettingWindowViewModel(catalog, new FakeImportService(), new FakeDialogService(), messenger);
+        var vm = new SettingWindowViewModel(catalog, new FakeImportService(), new FakeDialogService(), new FakeSettingsService(), messenger);
 
         vm.SelectedCharacter = Assert.Single(vm.CharacterItems);
         vm.SetCurrentCharacterCommand.Execute(null);
@@ -107,6 +109,7 @@ public class SettingWindowViewModelTests
             catalog,
             import ?? new FakeImportService(),
             dialog ?? new FakeDialogService(),
+            new FakeSettingsService(),
             new WeakReferenceMessenger());
     }
 
@@ -244,6 +247,15 @@ public class SettingWindowViewModelTests
         public void ShowInfo(string message, string title = "提示") { }
         public void ShowError(string message, string title = "错误") => LastError = message;
         public bool Confirm(string message, string title) => true;
+    }
+
+    private sealed class FakeSettingsService : ISettingsService
+    {
+        private PetSettings _settings = new();
+
+        public PetSettings Load() => _settings;
+
+        public void Save(PetSettings settings) => _settings = settings;
     }
 }
 

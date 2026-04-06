@@ -1,6 +1,66 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "RelativePath": "admin/models",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Returns all GGUF models found under ai-service/models, plus current selection.",
+    "Summary": "List local GGUF models"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_4",
+    "RelativePath": "admin/models/current",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Returns the currently configured local GGUF model and process state.",
+    "Summary": "Get current model"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_5",
+    "RelativePath": "admin/models/switch",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AiService.Host.Contracts.ModelSwitchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Switches the configured GGUF model, persists config, and restarts llama runtime when already running.",
+    "Summary": "Switch current model"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
     "Method": "\u003C\u003CMain\u003E$\u003Eb__0_1",
     "RelativePath": "admin/runtime/start",
     "HttpMethod": "POST",
@@ -55,7 +115,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_6",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_9",
     "RelativePath": "v1/agent/search",
     "HttpMethod": "POST",
     "IsController": false,
@@ -81,7 +141,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_4",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_7",
     "RelativePath": "v1/chat/completions",
     "HttpMethod": "POST",
     "IsController": false,
@@ -105,7 +165,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_6",
     "RelativePath": "v1/models",
     "HttpMethod": "GET",
     "IsController": false,
@@ -118,7 +178,7 @@
         "StatusCode": 200
       }
     ],
-    "Description": "Returns the default local model id exposed by this ai-service.",
+    "Description": "Returns locally available GGUF models exposed by this ai-service, including which one is currently selected.",
     "Summary": "List models"
   }
 ]

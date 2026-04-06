@@ -1,4 +1,4 @@
-﻿namespace DesktopPet.Core.Models;
+namespace DesktopPet.Core.Models;
 
 /// <summary>
 /// Represents persisted user settings.
@@ -24,4 +24,15 @@ public sealed class PetSettings
     /// Gets or sets current runtime character id.
     /// </summary>
     public string CurrentCharacterId { get; set; } = "dog_default";
+
+    /// <summary>
+    /// Gets or sets the preferred AI model id selected from the frontend.
+    /// </summary>
+    public string PreferredModelId { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Gets or sets the preferred AI model path relative to ai-service/models.
+    /// </summary>
+    public string PreferredModelRelativePath { get; set; } = string.Empty;
 }
+

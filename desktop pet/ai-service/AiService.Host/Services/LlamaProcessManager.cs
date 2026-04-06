@@ -35,6 +35,11 @@ public sealed class LlamaProcessManager : IDisposable
     public LlmRuntimeOptions Options { get; }
 
     /// <summary>
+    /// Gets whether llama-server process is currently running.
+    /// </summary>
+    public bool IsProcessRunning => _process is { HasExited: false };
+
+    /// <summary>
     /// Gets local llama server base URL.
     /// </summary>
     public string BaseUrl => $"http://{Options.Host}:{Options.Port}";
@@ -112,12 +117,18 @@ public sealed class LlamaProcessManager : IDisposable
         {
             enabled = Options.Enabled,
             healthy,
-            processRunning = _process is { HasExited: false },
+            processRunning = IsProcessRunning,
             baseUrl = BaseUrl,
             model = ResolvePath(Options.ModelPath),
             server = ResolvePath(Options.LlamaServerPath),
         };
     }
+
+    /// <summary>
+    /// Resolves a configured relative or absolute path against the host content root.
+    /// </summary>
+    public string ResolveConfiguredPath(string configuredPath)
+        => ResolvePath(configuredPath);
 
     /// <summary>
     /// Releases managed resources.

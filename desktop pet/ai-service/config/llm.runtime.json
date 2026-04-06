@@ -1,22 +1,19 @@
-﻿{
-    "LlmRuntime":  {
-                       "Enabled":  true,
-                       "AutoStart":  true,
-                       "Host":  "127.0.0.1",
-                       "Port":  18080,
-                       "HealthPath":  "/health",
-                       "StartupTimeoutSeconds":  90,
-                       "LlamaServerPath":  "../runtime/llama-server.exe",
-                       "ModelPath":  "../models/qwen2.5-7b-instruct-q4_k_m.gguf",
-                       "DefaultModelId":  "qwen2.5-7b-instruct",
-                       "ContextSize":  4096,
-                       "Threads":  8,
-                       "DefaultTemperature":  0.7,
-                       "DefaultTopP":  0.9,
-                       "DefaultMaxTokens":  160,
-                       "ExtraArgs":  [
-
-                                     ]
-                   }
+{
+  "LlmRuntime": {
+    "Enabled": true,
+    "AutoStart": true,
+    "Host": "127.0.0.1",
+    "Port": 18080,
+    "HealthPath": "/health",
+    "StartupTimeoutSeconds": 90,
+    "LlamaServerPath": "../runtime/llama-server.exe",
+    "ModelPath": "../models/qwen2.5-7b-instruct-q4_k_m.gguf",
+    "DefaultModelId": "qwen2.5-7b-instruct",
+    "ContextSize": 4096,
+    "Threads": 8,
+    "DefaultTemperature": 0.7,
+    "DefaultTopP": 0.9,
+    "DefaultMaxTokens": 160,
+    "ExtraArgs": []
+  }
 }
-

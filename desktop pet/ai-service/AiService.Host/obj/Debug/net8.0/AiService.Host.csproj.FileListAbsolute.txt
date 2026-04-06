@@ -194,4 +194,12 @@ D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_bui
 D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_build_extract4\AiService.Host.runtimeconfig.json
 D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_build_extract4\AiService.Host.dll
 D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_build_extract4\AiService.Host.pdb
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_model_api_build\appsettings.Development.json
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_model_api_build\appsettings.json
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_model_api_build\AiService.Host.staticwebassets.endpoints.json
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_model_api_build\AiService.Host.exe
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_model_api_build\AiService.Host.deps.json
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_model_api_build\AiService.Host.runtimeconfig.json
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_model_api_build\AiService.Host.dll
+D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\_temp_model_api_build\AiService.Host.pdb
 D:\githubProject\DesktopPetAiAgent\AIDeskTopPet\desktop pet\ai-service\AiService.Host\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
